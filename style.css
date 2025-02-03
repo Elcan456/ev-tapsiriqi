@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image:url(./Rectangle\ 5.png);
+    background-repeat: no-repeat;
+   
+    display: flex;
+    justify-content: space-around;
+}
+p,h1{
+    flex-direction: column;
+}
+input{
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 30px;
+}
